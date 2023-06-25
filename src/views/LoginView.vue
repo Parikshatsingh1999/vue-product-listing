@@ -3,12 +3,16 @@
     <form @submit="login" class="form">
       <h2>Login Admin</h2>
       <div>
-        <input ref="username" type="text" id="username" />
-        <label for="username"> Username</label>
+        <div class="form-item">
+          <input ref="username" type="text" id="username" />
+          <label for="username"> Username</label>
+        </div>
       </div>
       <div>
-        <input ref="password" type="password" id="password" />
-        <label for="password"> Password</label>
+        <div class="form-item">
+          <input ref="password" type="password" id="password" />
+          <label for="password"> Password</label>
+        </div>
       </div>
       <button type="submit">Login</button>
     </form>
