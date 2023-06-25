@@ -82,6 +82,7 @@ nav a.router-link-exact-active {
   justify-content: center;
   align-items: center;
   margin: auto;
+  width: 80%;
 }
 
 .form button[type="submit"] {
