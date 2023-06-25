@@ -65,7 +65,7 @@ nav a.router-link-exact-active {
 .form label {
   font-size: 16px;
   font-weight: bold;
-  width: 20%;
+  width: 30%;
   text-align: left;
 }
 
@@ -81,7 +81,6 @@ nav a.router-link-exact-active {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
   margin: auto;
 }
 
