@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import LoginView from "../views/LoginView.vue";
-import AdminView from "../views/AdminView.vue"
+import AdminView from "../views/AdminView.vue";
+import Notfound from "../components/NotFound.vue"
 import store from "../store/index";
 
 
@@ -23,6 +24,11 @@ const routes = [
     name: "login",
     component: LoginView,
   },
+  {
+    path: '/:pathMatch(.*)*',
+    name: "notfound",
+    component: Notfound
+  }
 
 ];
 
